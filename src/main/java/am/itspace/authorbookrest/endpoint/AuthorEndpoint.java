@@ -28,28 +28,28 @@ public class AuthorEndpoint {
 
     @GetMapping("/{id}")
     public ResponseEntity<AuthorResponseDto> getById(@PathVariable("id") int id) {
-       AuthorResponseDto author = authorService.getById(id);
-       if(author == null){
-           return ResponseEntity.notFound().build();
-       }
-       return ResponseEntity.ok(author);
+        AuthorResponseDto author = authorService.getById(id);
+        if (author == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(author);
     }
 
     @PutMapping("/{id}")
     public ResponseEntity<AuthorResponseDto> update(@PathVariable("id") int id,
-                                         @RequestBody  SaveAuthorDto authorDto) {
+                                                    @RequestBody SaveAuthorDto authorDto) {
         AuthorResponseDto byId = authorService.getById(id);
-        if(byId == null){
+        if (byId == null) {
             return ResponseEntity.notFound().build();
         }
         return ResponseEntity.ok(authorService.update(id, authorDto));
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<AuthorResponseDto> deleteById (@PathVariable("id") int id){
+    public ResponseEntity<AuthorResponseDto> deleteById(@PathVariable("id") int id) {
         AuthorResponseDto byId = authorService.getById(id);
-        if(byId == null){
-            return  ResponseEntity.notFound().build();
+        if (byId == null) {
+            return ResponseEntity.notFound().build();
         }
         authorService.deleteById(id);
         return ResponseEntity.ok().build();

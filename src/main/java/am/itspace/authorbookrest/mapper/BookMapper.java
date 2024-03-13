@@ -9,9 +9,9 @@ import am.itspace.dto.SaveBookDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 
-@Mapper(componentModel = "spring")
+@Mapper(componentModel = "spring", uses = AuthorMapper.class)
 public interface BookMapper {
-
+@Mapping(target = "authorResponseDto", source = "author")
     BookDto map(Book book);
     Book map(SaveBookDto saveBookDto);
 }
