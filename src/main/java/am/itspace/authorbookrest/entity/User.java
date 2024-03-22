@@ -23,7 +23,7 @@ public class User {
 
     private String surname;
 
-    private Integer email;
+    private String email;
 
     private String password;
 

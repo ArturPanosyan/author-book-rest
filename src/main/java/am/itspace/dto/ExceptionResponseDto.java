@@ -9,12 +9,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class BookDto {
+public class ExceptionResponseDto {
 
-    private Integer id;
+    private String message;
+    private int status;
     private String description;
-    private Double price;
-    private Double priceUSD;
-    private String title;
-    private AuthorResponseDto authorResponseDto;
+
 }

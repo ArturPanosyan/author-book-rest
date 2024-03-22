@@ -46,7 +46,7 @@ public class UserEndpoint {
                     .build();
         }
         return ResponseEntity.ok(AuthResponseDto.builder()
-                .token(jwtTokenUtil.generateToken(String.valueOf(user.getEmail())))
+                .token(jwtTokenUtil.generateToken((user.getEmail())))
                 .userDto(userMapper.map(user))
                 .build());
 
