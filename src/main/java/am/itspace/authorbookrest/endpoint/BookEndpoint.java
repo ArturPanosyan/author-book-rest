@@ -1,9 +1,9 @@
 package am.itspace.authorbookrest.endpoint;
 
 import am.itspace.authorbookrest.service.BookService;
-import am.itspace.dto.BookDto;
-import am.itspace.dto.BookFilterDto;
-import am.itspace.dto.SaveBookDto;
+import am.itspace.authorbookrest.dto.BookDto;
+import am.itspace.authorbookrest.dto.BookFilterDto;
+import am.itspace.authorbookrest.dto.SaveBookDto;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;

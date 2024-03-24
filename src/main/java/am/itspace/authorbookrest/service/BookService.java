@@ -1,8 +1,8 @@
 package am.itspace.authorbookrest.service;
 
-import am.itspace.dto.BookDto;
-import am.itspace.dto.BookFilterDto;
-import am.itspace.dto.SaveBookDto;
+import am.itspace.authorbookrest.dto.BookDto;
+import am.itspace.authorbookrest.dto.BookFilterDto;
+import am.itspace.authorbookrest.dto.SaveBookDto;
 
 import java.util.List;
 

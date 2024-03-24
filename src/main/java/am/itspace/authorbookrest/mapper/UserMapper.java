@@ -1,8 +1,8 @@
 package am.itspace.authorbookrest.mapper;
 
 import am.itspace.authorbookrest.entity.User;
-import am.itspace.dto.CreateUserRequestDto;
-import am.itspace.dto.UserDto;
+import am.itspace.authorbookrest.dto.CreateUserRequestDto;
+import am.itspace.authorbookrest.dto.UserDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

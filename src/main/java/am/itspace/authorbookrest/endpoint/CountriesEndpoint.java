@@ -1,6 +1,6 @@
 package am.itspace.authorbookrest.endpoint;
 
-import am.itspace.dto.CountryInfo;
+import am.itspace.authorbookrest.dto.CountryInfo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;

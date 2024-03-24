@@ -1,4 +1,4 @@
-package am.itspace.dto;
+package am.itspace.authorbookrest.dto;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;

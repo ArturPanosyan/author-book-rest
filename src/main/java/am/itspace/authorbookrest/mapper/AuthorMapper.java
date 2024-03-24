@@ -1,8 +1,8 @@
 package am.itspace.authorbookrest.mapper;
 
 import am.itspace.authorbookrest.entity.Author;
-import am.itspace.dto.AuthorResponseDto;
-import am.itspace.dto.SaveAuthorDto;
+import am.itspace.authorbookrest.dto.AuthorResponseDto;
+import am.itspace.authorbookrest.dto.SaveAuthorDto;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

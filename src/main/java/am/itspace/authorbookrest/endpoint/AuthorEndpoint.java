@@ -1,17 +1,15 @@
 package am.itspace.authorbookrest.endpoint;
 
 import am.itspace.authorbookrest.service.AuthorService;
-import am.itspace.dto.AuthorResponseDto;
-import am.itspace.dto.PagingResponseDto;
-import am.itspace.dto.SaveAuthorDto;
+import am.itspace.authorbookrest.dto.AuthorResponseDto;
+import am.itspace.authorbookrest.dto.PagingResponseDto;
+import am.itspace.authorbookrest.dto.SaveAuthorDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor

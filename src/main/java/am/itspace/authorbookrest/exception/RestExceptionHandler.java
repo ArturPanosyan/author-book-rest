@@ -1,6 +1,6 @@
 package am.itspace.authorbookrest.exception;
 
-import am.itspace.dto.ExceptionResponseDto;
+import am.itspace.authorbookrest.dto.ExceptionResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

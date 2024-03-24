@@ -1,8 +1,11 @@
 package am.itspace.authorbookrest.endpoint;
 
+import am.itspace.authorbookrest.dto.AuthRequestDto;
+import am.itspace.authorbookrest.dto.AuthResponseDto;
+import am.itspace.authorbookrest.dto.CreateUserRequestDto;
+import am.itspace.authorbookrest.dto.UserDto;
 import am.itspace.authorbookrest.entity.User;
 import am.itspace.authorbookrest.mapper.UserMapper;
-import am.itspace.authorbookrest.service.AuthorService;
 import am.itspace.authorbookrest.service.UserService;
 import am.itspace.authorbookrest.util.JwtTokenUtil;
 import am.itspace.dto.*;
@@ -11,8 +14,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 @RestController
 @RequiredArgsConstructor

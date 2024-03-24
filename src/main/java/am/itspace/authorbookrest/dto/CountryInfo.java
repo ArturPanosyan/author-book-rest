@@ -1,4 +1,4 @@
-package am.itspace.dto;
+package am.itspace.authorbookrest.dto;
 
 import lombok.Data;
 import java.util.List;

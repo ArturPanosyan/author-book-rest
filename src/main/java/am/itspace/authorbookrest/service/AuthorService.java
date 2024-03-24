@@ -1,11 +1,9 @@
 package am.itspace.authorbookrest.service;
 
-import am.itspace.dto.AuthorResponseDto;
-import am.itspace.dto.PagingResponseDto;
-import am.itspace.dto.SaveAuthorDto;
+import am.itspace.authorbookrest.dto.AuthorResponseDto;
+import am.itspace.authorbookrest.dto.PagingResponseDto;
+import am.itspace.authorbookrest.dto.SaveAuthorDto;
 import org.springframework.data.domain.Pageable;
-
-import java.util.List;
 
 public interface AuthorService {
     AuthorResponseDto create(SaveAuthorDto author);

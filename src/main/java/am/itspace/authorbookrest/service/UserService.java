@@ -2,8 +2,8 @@ package am.itspace.authorbookrest.service;
 
 
 import am.itspace.authorbookrest.entity.User;
-import am.itspace.dto.CreateUserRequestDto;
-import am.itspace.dto.UserDto;
+import am.itspace.authorbookrest.dto.CreateUserRequestDto;
+import am.itspace.authorbookrest.dto.UserDto;
 
 public interface UserService {
 
